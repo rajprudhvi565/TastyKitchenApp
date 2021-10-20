@@ -1,0 +1,72 @@
+.food-image {
+  width: 255px;
+  height: 150px;
+  margin-right: 20px;
+  border-radius: 8px;
+}
+.food-list-cont {
+  display: flex;
+  flex-wrap: wrap;
+  width: 500px;
+  margin-bottom: 32px;
+}
+.cost-main-cont {
+  display: flex;
+  flex-direction: row;
+}
+.rating-main-cont {
+  display: flex;
+  flex-direction: row;
+}
+.cost-rate-text {
+  margin-top: 0px;
+}
+.icon-top-space {
+  margin-top: 2px;
+}
+.star-icon {
+  color: #ffcc00;
+}
+.item-name-text {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #334155;
+  margin-top: 0px;
+}
+.add-button {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #ffa412;
+  border: 2px solid #ffa412;
+  box-sizing: border-box;
+  border-radius: 8px;
+  background-color: white;
+  padding: 4px;
+  width: 40px;
+}
+.quantity-container-control {
+  display: flex;
+  justify-content: space-evenly;
+  width: 120px;
+}
+.quantity-controller-button {
+  border-width: 0px;
+  width: 24px;
+  height: 24px;
+  left: 500px;
+  top: 1390px;
+  background-color: white;
+}
+.quantity {
+  margin-top: 0px;
+}
+.quantity-controller-icon {
+  font-size: 20px;
+}

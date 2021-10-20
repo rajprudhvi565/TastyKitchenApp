@@ -1,0 +1,19 @@
+.restaurant-list-loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 360px;
+}
+
+.restaurant-list-item-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  height: 360px;
+  margin-top: 20px;
+  margin-left: 90px;
+  margin-right: 90px;
+  margin-bottom: 25px;
+}

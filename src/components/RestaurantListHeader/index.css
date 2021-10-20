@@ -1,0 +1,143 @@
+.restaurant-list-header-container {
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 120px;
+}
+
+.restaurant-list-header-sortby-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-top: 50px;
+  margin-left: 90px;
+  margin-right: 90px;
+
+  border-bottom: 1px solid #cbd2d9;
+}
+
+.restaurant-list-header-heading {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 48px;
+
+  color: #183b56;
+}
+
+.restaurant-list-header-description {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #64748b;
+  margin-top: -10px;
+}
+
+.restaurant-list-header-button {
+  display: flex;
+  align-items: center;
+
+  height: 30px;
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+
+  margin-bottom: -20px;
+}
+
+.filter-icon {
+  height: 24px;
+  width: 24px;
+  color: #475569;
+}
+
+.restaurant-list-header-sort-by-text {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #475569;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.downfill-icon {
+  height: 16px;
+  width: 16px;
+  color: #475569;
+}
+
+.restaurant-header-sort-options-container {
+  height: 112px;
+  width: 161px;
+  background-color: #ffffff;
+
+  border: 1px solid #cbd5e1;
+  box-sizing: border-box;
+
+  box-shadow: 0px 0px 2px rgba(40, 41, 61, 0.04),
+    0px 4px 8px rgba(96, 97, 112, 0.16);
+  border-radius: 12px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self: flex-end;
+
+  position: absolute;
+
+  margin-top: 140px;
+  margin-left: 130px;
+  margin-right: 90px;
+}
+
+.restaurant-header-sort-options-container-hide {
+  display: none;
+}
+
+.restaurant-header-sort-options-button {
+  height: 40px;
+  width: 145px;
+
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+
+  color: #475569;
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.restaurant-header-sort-options-button:hover {
+  background-color: #f1f5f9;
+  border-radius: 8px;
+}
+
+.check-icon-hide {
+  display: none;
+}
+
+.check-icon {
+  display: flex;
+  height: 18px;
+  width: 18px;
+}

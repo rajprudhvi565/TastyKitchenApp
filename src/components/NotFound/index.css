@@ -1,0 +1,50 @@
+.not-found-container {
+  height: 130vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.not-found-card-container {
+  width: 550px;
+  text-align: center;
+}
+
+.not-found-image {
+  height: 296px;
+  width: 269px;
+}
+
+.not-found-heading {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 48px;
+
+  color: #1e293b;
+}
+
+.not-found-description {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 32px;
+
+  color: #475569;
+}
+
+.not-found-custom-button {
+  background: #f7931e;
+  border: 0;
+  border-radius: 12px;
+
+  color: #ffffff;
+
+  height: 48px;
+  width: 123px;
+
+  cursor: pointer;
+}
